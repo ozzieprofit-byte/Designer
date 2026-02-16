@@ -1,5 +1,3 @@
-
-```tsx
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex flex-col items-center justify-center p-8 text-white">
@@ -18,5 +16,7 @@ export default function Home() {
         WhatsApp Chat → 9898773859
       </a>
     </main>
-  );
+  )
 }
+
+export default Home;
