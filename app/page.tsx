@@ -1,22 +1,22 @@
+
 ```tsx
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="container mx-auto px-6 py-24 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-gray-800 to-emerald-600 bg-clip-text text-transparent mb-8">
-          Designer
-        </h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-12">
-          Mumbai's #1 AI Agency
-        </p>
-        <a href="https://wa.me/919898773859?text=Hi%20Designer"
-           className="bg-emerald-500 hover:bg-emerald-600 text-white px-12 py-6 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 inline-flex items-center gap-3">
-          💬 Book Demo (15min)
-        </a>
-        <p className="mt-8 text-2xl font-semibold text-emerald-600">
-          📱 9898773859
-        </p>
-      </div>
+    <main className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex flex-col items-center justify-center p-8 text-white">
+      <h1 className="text-6xl font-bold mb-8 animate-pulse">
+        Expert Emark
+      </h1>
+      <p className="text-2xl mb-12 text-center max-w-2xl">
+        AI-Powered Digital Marketing & Recruitment Solutions
+      </p>
+      <a
+        href="https://wa.me/919898773859"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-500 hover:bg-green-600 text-xl font-bold py-4 px-8 rounded-full shadow-2xl hover:scale-105 transition-all duration-300"
+      >
+        WhatsApp Chat → 9898773859
+      </a>
     </main>
-  )
+  );
 }
